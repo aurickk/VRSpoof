@@ -1,6 +1,10 @@
 # VRSpoof
 Vencord plugin that makes your Discord session appear as a VR headset to everyone even if you're on the desktop app.
 
+<img height="83" alt="ss" src="https://github.com/user-attachments/assets/5008bf56-db27-44c9-ae71-47da6b4f3cab" />
+<img height="83" alt="ss" src="https://github.com/user-attachments/assets/0fbdf386-9e00-430e-9887-c4309ad7738c" />
+
+
 ## How it works
 Discord decides which platform indicator other users see (desktop, mobile, web, VR...) from the connection properties your client sends in its gateway IDENTIFY. A session is shown as VR only when it reports `os` as `android` together with `browser` as `Discord VR`.
 
